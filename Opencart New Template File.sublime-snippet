@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<?php echo \$header; ?><?php echo \$column_left; ?>
+
+<!-- TO DO... -->
+
+<?php echo \$footer; ?>
+    	]]></content>
+    <tabTrigger>view</tabTrigger>
+    <scope>embedding.php</scope>
+    <description>New Opencart View</description>
+</snippet>

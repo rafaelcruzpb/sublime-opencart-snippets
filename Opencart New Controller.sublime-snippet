@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+class Controller${1:FolderandControllerName} extends Controller {
+	private \$error = array();
+
+	public function index() {
+		\$data = array();
+
+		// \$this->load->language('folder/languagefile');
+
+		// \$this->document->setTitle(\$this->language->get('heading_title'));
+
+		// \$this->load->model('folder/modelfile');
+
+
+		// TO DO...
+
+		
+		\$data['header'] = \$this->load->controller('common/header');
+		\$data['column_left'] = \$this->load->controller('common/column_left');
+		\$data['footer'] = \$this->load->controller('common/footer');
+
+		\$this->response->setOutput(\$this->load->view('folder/file.tpl', \$data));
+	}
+
+	// public function anotherMethod(){
+
+	// }
+}
+    	]]></content>
+    <tabTrigger>controller</tabTrigger>
+    <scope>source.php</scope>
+    <description>New Opencart Controller</description>
+</snippet>

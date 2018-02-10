@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+// Heading
+\$_['heading_title']          = 'Heading Title';
+
+// Text
+// TO DO...
+
+// Column
+// TO DO...
+
+// Entry
+// TO DO...
+
+// Error
+// TO DO...
+    	]]></content>
+    <tabTrigger>language</tabTrigger>
+    <scope>source.php</scope>
+    <description>New Opencart Language</description>
+</snippet>

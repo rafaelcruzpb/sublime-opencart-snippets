@@ -1,0 +1,34 @@
+{
+   "scope": "source.php",
+
+   "completions":
+    [
+            { "trigger": "this->load->model('')\tOpencart", "contents": "\\$this->load->model('$0');" },
+            { "trigger": "Load Model\tOpencart", "contents": "\\$this->load->model('$0');" },
+            { "trigger": "this->load->controller('')\tOpencart", "contents": "\\$this->load->controller('$0');" },
+            { "trigger": "Load Controller\tOpencart", "contents": "\\$this->load->controller('$0');" },
+            { "trigger": "this->load->language('')\tOpencart", "contents": "\\$this->load->language('$0');" },
+            { "trigger": "Load Language\tOpencart", "contents": "\\$this->load->language('$0');" },
+            { "trigger": "this->language->get('')\tOpencart", "contents": "\\$this->language->get('$0');" },
+            { "trigger": "Language Get\tOpencart", "contents": "\\$this->language->get('$0');" },
+            { "trigger": "this->db->query('')\tOpencart", "contents": "\\$this->db->query(\"$0\");" },
+            { "trigger": "this->db->query('')->rows\tOpencart", "contents": "\\$this->db->query(\"SELECT * FROM \".DB_PREFIX.\"$0 WHERE ...\")->rows;" },
+            { "trigger": "this->db->query('')->row\tOpencart", "contents": "\\$this->db->query(\"SELECT * FROM \".DB_PREFIX.\"$0 WHERE ...\")->row;" },
+            { "trigger": "DB Query\tOpencart", "contents": "\\$this->db->query(\"$0\");" },
+            { "trigger": "DB Query (Rows)\tOpencart", "contents": "\\$this->db->query(\"SELECT * FROM \".DB_PREFIX.\"$0 WHERE ...\")->rows;" },
+            { "trigger": "DB Query (Row)\tOpencart", "contents": "\\$this->db->query(\"SELECT * FROM \".DB_PREFIX.\"$0 WHERE ...\")->row;" },
+            { "trigger": "this->request-get['']\tOpencart", "contents": "\\$this->request->get['$0'];" },
+            { "trigger": "Request Get\tOpencart", "contents": "\\$this->request->get['$0'];" },
+            { "trigger": "this->request-post['']\tOpencart", "contents": "\\$this->request->post['$0'];" },
+            { "trigger": "Request Post\tOpencart", "contents": "\\$this->request->post['$0'];" },
+            { "trigger": "this->user-hasPermission('')\tOpencart", "contents": "\\$this->user->hasPermission('$0');" },
+            { "trigger": "User HasPermission\tOpencart", "contents": "\\$this->user->hasPermission('$0');" },
+            { "trigger": "this->response->setOutput(...)\tOpencart", "contents": "\\$this->response->setOutput(\\$this->load->view('$0', \\$data));" },
+            { "trigger": "Response setOutput (LoadView)\tOpencart", "contents": "\\$this->response->setOutput(\\$this->load->view('$0', \\$data));" },
+            { "trigger": "Model Method\tOpencart", "contents": "\\$this->model_$1->$2($3);" },
+            { "trigger": "this->model_...\tOpencart", "contents": "\\$this->model_$1->$2($3);" },
+            { "trigger": "this->response->addHeader('')\tOpencart", "contents": "\\$this->response->addHeader('$0');" },
+            { "trigger": "Response addHeader\tOpencart", "contents": "\\$this->response->addHeader('$0');" },
+            { "trigger": "Response addHeader (JSON)\tOpencart", "contents": "\\$this->response->addHeader('Content-Type: application/json');" }
+    ]
+}

@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+class ${1:LibraryName} 
+{
+	private \$error = array();
+    private \$registry;
+   
+	public function __construct(\$registry)
+    {
+		\$this->registry = \$registry;
+	}
+
+    // public function anotherMethod(){
+
+    // }
+}
+    	]]></content>
+    <tabTrigger>library</tabTrigger>
+    <scope>source.php</scope>
+    <description>New Opencart Library</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+class Model${1:FolderandModelName} extends Model
+{
+	public function add(\$data)
+    {
+		\$this->db->query("INSERT INTO `" . DB_PREFIX . "table_name` SET ...");
+	}	
+}
+    	]]></content>
+    <tabTrigger>model</tabTrigger>
+    <scope>source.php</scope>
+    <description>New Opencart Model</description>
+</snippet>
